@@ -2,12 +2,76 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+	<sdef n="cog"     c="Cognomen"/>
+    <sdef n="ant"     c="Anthroponym"/>
+	<sdef n="org"     c="Organisation"/>
+    <sdef n="al"     c="Altres"/>
+    <sdef n="top"     c=""/>
+    <sdef n="subj"    c="subject"/>
     <sdef n="num"     c="Numeral"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="pers"     c="Personal"/>
+    <sdef n="dat"     c="Dative"/>
+    <sdef n="erg"     c="Ergative"/>
+    <sdef n="gen"     c="Genitive"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="post"    c="Postposition"/>
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="frm"     c="Formal"/>
+    <sdef n="fam"     c="Familiar"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub"  c="Sub-ordinating conjunction"/>
+    <sdef n="cnjadv"  c="adverbial conjunction"/>
+    <sdef n="prn"     c="Pronoun"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="m"       c="Masculine"/>
-    <sdef n="ord"       c="order"/>
+    <sdef n="mf"      c=""/>
+    <sdef n="vaux"    c=""/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="acc"      c="accusative"/>
+    <sdef n="ins"      c="instrumental"/>
+    <sdef n="loc"      c="Locative"/>
+    <sdef n="rel"     c="Relative"/>
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="prx"     c="Proximate"/>
+    <sdef n="dst"     c="Distal"/>
+    <sdef n="aa"      c="Animate"/>
+    <sdef n="nn"      c="Inanimate"/>
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="obl"     c="Oblique"/>
+    <sdef n="pos"     c="Possessive"/>
+    <sdef n="qnt"     c=""/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="pres"    c="Present tense"/>
+    <sdef n="past"    c="Past tense"/>
+	<sdef n="impf"    c="Imperfective participle"/>
+	<sdef n="perf"     c="Perfective participle"/>
+	<sdef n="tv"     c="transitive"/>
+	<sdef n="iv"     c="intransitive"/>
+    <sdef n="prs"    c="Subjunctive"/>
+    <sdef n="fut"    c="Future"/>
+	<sdef n="imp"    c="Imperative"/>
+	<sdef n="gna"    c="verbal adverb"/>
+	<sdef n="agnt"    c="agentive"/>
+	<sdef n="pri"    c="present indicative"/>
+	<sdef n="stem"  c="stem"/>
+	<sdef n="ord"  c="ordinal"/>
 
-    <sdef n="sent"    c=""/>
+  <sdef n="cm"         c="Comma"/>
+    <sdef n="sent"       c="Sentence marker"/>
+    <sdef n="lpar"       c="Left parenthesis"/>
+    <sdef n="rpar"       c="Right parenthesis"/>
+    <sdef n="lquot"      c="Left quote"/>
+    <sdef n="rquot"      c="Right quote"/>
+  <sdef n="guio" c="Hyphen"/>
   </sdefs>
   <section id="main" type="standard">
 
@@ -173,6 +237,40 @@
     <e><p><l>نماز<s n="n"/><s n="f"/></l><r>نماز<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ماں<s n="n"/><s n="f"/></l><r>ماں<s n="n"/><s n="f"/></r></p></e>
 
+    <e><p><l>لوگوں<s n="vblex"/><s n="pl"/><s n="m"/></l><r>لوکاں<s n="vblex"/><s n="pl"/><s n="m"/></r></p></e>
+    <e><p><l>کی</l><r>دی</r></p></e>
+    <e><p><l>عادت<s n="adj"/><s n="m"/></l><r>عادت<s n="adj"/><s n="m"/></r></p></e>
+    <e><p><l>ندی<s n="n"/><s n="m"/></l><r>ندی<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>طِعنے<s n="n"/><s n="m"/></l><r>طِعنے<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>مذاق<s n="n"/><s n="f"/></l><r>مذاق<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>یا</l><r>جاں</r></p></e>
+    <e><p><l>کمی<s n="adj"/></l><r>کمی<s n="adj"/></r></p></e>
+    <e><p><l>نکالنا<s n="vblex"/></l><r>کڈھنا<s n="vblex"/></r></p></e>
+    <e><p><l>باتوں<s n="vblex"/></l><r>گلّاں<s n="vblex"/></r></p></e>
+    <e><p><l>سے><s n="pr"/></l><r>توں<s n="pr"/></r></p></e>
+    <e><p><l>بات<s n="vblex"/></l><r>گلّ<s n="vblex"/></r></p></e>
+    <e><p><l>یاد<s n="vblex"/><s n="m"/></l><r>یاد<s n="vblex"/><s n="m"/></r></p></e>
+    <e><p><l>رکھو<s n="vblex" /><s n="m"/></l><r>رکھو<s n="vblex"/><s n="m"/></r></p></e>
+    <e><p><l>بچھو<s n="n"/><s n="m"/></l><r>بچھو<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>کا<s n="pr"/><s n="m"/></l><r>دا<s n="pr"/><s n="m"/></r></p></e>
+    <e><p><l>ڈنگ<s n="n"/><s n="m"/></l><r>ڈنگ<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ھماری<s n="prn"/><s n="m"/></l><r>ساڈی<s n="prn"/><s n="m"/></r></p></e>
+    <e><p><l>رش<s n="vblex"/><s n="m"/></l><r>رش<s n="vblex"/><s n="m"/></r></p></e>
+    <e><p><l>چھاوًں<s n="adj"/><s n="m"/></l><r>چھاواں<s n="adj"/><s n="m"/></r></p></e>
+    <e><p><l>برتن<s n="n"/><s n="m"/></l><r>برتن<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>لوھا<s n="n"/><s n="m"/></l><r>لوھا<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>کبھی<s n="n"/><s n="m"/></l><r>کدی<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>مالی<s n="n"/><s n="m"/></l><r>مالی<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>اپنا<s n="prn"/></l><r>اپنا<s n="prn"/></r></p></e>
+    <e><p><l>اپنے<s n="prn"/></l><r>اپنے<s n="prn"/></r></p></e>
+
+
+
+
+
+
+
+
     <e><p><l>باپ<s n="n"/><s n="m"/></l><r>پیو<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>صفر<s n="num"/></l><r>صفر<s n="num"/></r></p></e>
     <e><p><l>ايک<s n="num"/></l><r>اک<s n="num"/></r></p></e>
@@ -195,6 +293,12 @@
     <e><p><l>آٹھ<s n="num"/></l><r>اٹھ<s n="num"/></r></p></e>
     <e><p><l>نو<s n="num"/></l><r>نو<s n="num"/></r></p></e>
     <e><p><l>دس<s n="num"/></l><r>دس<s n="num"/></r></p></e>
+
+
+    <!-- Prepositions -->
+    <e c="taraf"><p><l>طرف<s n="post"/></l><r>طرف<s n="post"/></r></p></e>
+    <e c="neche"><p><l>نیچے<s n="post"/></l><r>نیچے<s n="post"/></r></p></e>
+    <e c="sāth"><p><l>ساتھ<s n="post"/></l><r>ساتھ<s n="post"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
     <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
